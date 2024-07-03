@@ -5,7 +5,7 @@ metadata:
 
 spec:
   containers:
-  - name: NGINX-SAMPLE
+  - name: nginx-sample
     image: nginx 
     ports:
     - containerPort: 80
