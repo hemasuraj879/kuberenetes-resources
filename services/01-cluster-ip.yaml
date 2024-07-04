@@ -32,6 +32,6 @@ spec:
     project: roboshop
   ports:
   - name: http
-    protocol: Tcp
+    protocol: "Tcp"
     port: 80
     targetPort: 8080
