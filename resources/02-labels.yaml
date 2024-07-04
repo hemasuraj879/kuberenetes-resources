@@ -7,9 +7,3 @@ metadata:
     project: roboshop
   namespace: roboshop
 
-spec:
-  containers:
-  - name: label
-    image: nginx
-    ports:
-    - containerPort: 80
