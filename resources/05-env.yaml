@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: env-pod
+  labels:
+    env: dev
+    project: roboshop
+
+spec:
+  containers:
+  - name: nginx
+    image: nginx 
+    ports:
+    - containerPort: 80
+    env:
+      trainer: suraj
+      course: devops
+
+      
