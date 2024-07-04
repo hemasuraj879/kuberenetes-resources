@@ -13,6 +13,8 @@ spec:
     ports:
     - containerPort: 80
     env:
-    - trainer: suraj
-      course: devops
+    - name: trainer
+      value: suraj
+      name: course
+      value: devops
 
