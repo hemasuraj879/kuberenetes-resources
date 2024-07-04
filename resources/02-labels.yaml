@@ -1,9 +1,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: label
+  name: label-pod
   labels:
     env: dev
     project: roboshop
   namespace: roboshop
 
+spec:
+  containers:
+  - name: label
+    image: nginx
+    ports:
+    - containerPort: 80
